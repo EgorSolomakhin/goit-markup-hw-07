@@ -1,11 +1,11 @@
-.header-content {
+.header {
     border: 1px solid #ECECEC;
     background-color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 25px;
 }
 
-.link-site-nav {
+.site-nav__link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -40,7 +40,7 @@
 }
 }
 
-.link-auth-nav {
+.auth-nav__link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -56,22 +56,30 @@
 }
 }
 
-.container-header {
+.container-header,
+.header__container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.site-nav-items{
+.site-nav__item{
 
     &:not(:last-child) {
     margin-right: 50px;
     }    
 }
 
-.link-auth-nav {
+.auth-nav__link {
     display: flex;
     align-items: center;
+}
+
+.auth-nav__item {
+
+    &:not(:last-child) {
+    margin-right: 30px;
+    }    
 }
 
 .auth-nav-icon-envelope {
@@ -80,8 +88,8 @@
     fill: currentColor;
     margin-right: 10px;
 
-        .auth-nav-items:hover &,
-        .auth-nav-items:focus & {
+        .auth-nav__item:hover &,
+        .auth-nav__item:focus & {
             fill: currentColor;
 }
 }
@@ -92,8 +100,8 @@
     fill: currentColor;
     margin-right: 10px;
 
-        .auth-nav-items:hover &,
-        .auth-nav-items:focus & {
+        .auth-nav__item:hover &,
+        .auth-nav__item:focus & {
             fill: currentColor;
     
 }

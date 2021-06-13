@@ -23,13 +23,13 @@
     margin-left: -30px;
 } 
 
-.list-example > .list-example-icon {
+.list-example > .list-example__icon {
     flex-basis:calc(90 / 3 - 30px);
     margin-top: 50px;
     margin-left: 30px;
 }
 
-.list-example-icon {
+.list-example__icon {
     position: relative;
 }
 

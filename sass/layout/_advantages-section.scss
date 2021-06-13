@@ -1,4 +1,4 @@
-.title-second-section {
+.advantages__title-second-section {
     
     font-family: Roboto;
     font-style: normal;
@@ -9,13 +9,13 @@
     color: var(--secondery-text-color);
 }
 
-.list-advantages-icon {
+.list-advantages-icons {
     display: flex;
     justify-content: space-between;
 
 }
 
-.list-advantages-iten {
+.list-advantages-icons__iten {
     display: flex;
     width: 270px;
     height: 120px;
@@ -25,7 +25,7 @@
     border-radius: 4px;
 }
 
-.list-advantages-iten-icon {
+.list-advantages-icons__icon {
     height: 70px;
     width: 70px;
     
@@ -38,7 +38,7 @@
    
 }
 
-.list-advantages {
+.advantages__list {
     margin-top: 30px;
 
     &:not(:last-child) {
@@ -46,7 +46,7 @@
 }
 }
 
-.about-advantages {
+.advantages__about-advantages {
     margin-top: 10px;
 }
 

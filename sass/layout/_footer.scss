@@ -1,16 +1,16 @@
-.address,
-.contact {
+.list-contact__address,
+.list-contact__contact {
     color: var(--footer-text-color);
     text-decoration: none;
     font-style: normal;
 }
 
-.contact {
+.list-contact__contact {
     
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-content {
+.footer {
     display: flex;
     background-color: var(--secondary-background-color);
     padding-top: 60px;
@@ -34,7 +34,7 @@
     margin-top: 20px;
 }
 
-.list-contact-item:not(:first-child) {
+.list-contact__item:not(:first-child) {
     margin-top: 9px;
 }
 
@@ -63,7 +63,7 @@
 
 }
 
-.footer-social-list-link {
+.footer-social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,13 +73,13 @@
 
 }
 
-.footer-social-list-icon {
+.footer-social-list__icon {
     height: 20px;
     width: 20px;
 }
 
-.footer-social-list-link,
-.footer-social-list-link {
+.footer-social-list__link,
+.footer-social-list__link {
    background: rgba(255, 255, 255, 0.1);
 
     &:hover,
@@ -88,7 +88,7 @@
 }
 }
 
-.footer-social-list-icon {
+.footer-social-list__icon {
     fill: #FFFFFF;
 }
 
@@ -105,14 +105,14 @@
 
 }
 
-.footer-form-subscribe {
+.footer__form-subscribe {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 
 }
 
-.footer-email-ipt {
+.footer-email__ipt {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -161,7 +161,7 @@
     border-radius: 4px
 }
 
-.footer-subscribe-icon {
+.footer-btn-subscribe__icon {
     width: 24px;
     height: 24px;
     fill: #FFFFFF;

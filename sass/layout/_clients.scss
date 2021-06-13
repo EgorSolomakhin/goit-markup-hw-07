@@ -18,7 +18,7 @@
 
 }
 
-.list-client-iten-link {
+.list-client__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,14 @@
         cursor: pointer;
         border: 1px solid #2196F3; 
 
-            & .list-client-iten-icon,
-            & .list-client-iten-icon {
+            & .list-client__icon,
+            & .list-client__icon {
                 fill: var(--accent-color);
 }
 }
 }
 
-.list-client-iten-icon {
+.list-client__icon {
     width: 106;
     fill: #AFB1B8;
 }
